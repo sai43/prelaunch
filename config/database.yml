@@ -1,0 +1,26 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: prelaunchr_development
+  pool: 5
+  username: root
+  password: gopi
+  socket: /var/run/mysqld/mysqld.sock
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: prelaunchr_test
+  pool: 5
+  username: root
+  password: gopi
+  socket: /var/run/mysqld/mysqld.sock
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: prelaunchr_production
+  pool: 5
+  username: root
+  password: gopi
+  socket: /var/run/mysqld/mysqld.sock
